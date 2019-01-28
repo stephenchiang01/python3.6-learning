@@ -1,0 +1,12 @@
+#-*- coding:utf-8 -*-
+ 
+f = open('C:/Users\Administrator\Desktop\康德-BD沃克-20161002.txt', 'r')              #文件为123.txt
+sourceInLines = f.readlines()  #按行读出文件内容
+f.close()
+new = []                                   #定义一个空列表，用来存储结果
+for line in sourceInLines:
+    temp1 = line.strip('\n')       #去掉每行最后的换行符'\n'
+    temp2 = temp1.split(',')     #以','为标志，将每行分割成列表
+    new.append(temp2)          #将上一步得到的列表添加到new中
+     
+print (new)
