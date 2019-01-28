@@ -1,0 +1,5 @@
+# name.py
+name = input('what is your first name?')
+print('hello '+ name.capitalize() + '!')
+
+input ("Press<enter>")
