@@ -1,0 +1,27 @@
+# -*- coding:utf-8 -*-
+
+import requests
+from bs4 import BeautifulSoup
+import sys
+import importlib
+importlib.reload(sys)
+sys.getdefaultencoding('utf-8')
+
+url = "http://club.mil.news.sina.com.cn/viewthread.php?tid=666013&extra=page%3D1&page=1"
+
+req = requests.get(url)
+req.encoding = req.apparent_encoding
+html = req.text
+
+soup = BeautifulSoup(html)
+
+file = open('sina_club.txt', 'w')
+x = 1
+for tag in soup.find_all('div', attrs = {'class': "cont f14"}):
+    word = tag.get_text()
+    line1 = "---------------评论" + str(x) + "---------------------" + "\n"
+    line2 = word + "\n"
+    line = line1 + line2
+    x += 1
+    file.write(line)
+file.close() 
