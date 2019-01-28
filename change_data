@@ -1,0 +1,11 @@
+#!/usr/bin/python
+ 
+f = open('C:/Users\Administrator\Desktop\康德-BD沃克-20161002.txt','r')
+lines = f.readlines()
+names = locals()
+for line in lines:
+        index = int(lines.index(line))+1
+        names['list%d' % index] = line.split()
+print ("list1 = " + str(list1))
+print ("list2 = " + str(list2))
+print ("list3 = " + str(list3))
