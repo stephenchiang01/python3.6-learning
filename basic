@@ -1,4 +1,3 @@
 import math
 math.cos(58)
-    print it as a whole process
-    
+    print('that is what you can do in this moment')
