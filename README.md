@@ -7,6 +7,6 @@ The content include things as follows:
   -Some useful codes I will use to data process
 
 Learning website:
-    -https://www.runoob.com/python/python-tutorial.html
-    -https://www.liaoxuefeng.com/wiki/1016959663602400
-    -https://www.paddlepaddle.org.cn/start
+    -https://www.runoob.com/python/python-tutorial.html <br>
+    -https://www.liaoxuefeng.com/wiki/1016959663602400 <br>
+    -https://www.paddlepaddle.org.cn/start <br>
