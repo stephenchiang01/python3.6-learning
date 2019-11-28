@@ -5,3 +5,8 @@ The content include things as follows:
   -Ways about how I learn python
   -Some projrct codes I am trying to learn
   -Some useful codes I will use to data process
+
+Learning website:
+    -https://www.runoob.com/python/python-tutorial.html
+    -https://www.liaoxuefeng.com/wiki/1016959663602400
+    -https://www.paddlepaddle.org.cn/start
